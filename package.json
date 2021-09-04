@@ -1,0 +1,17 @@
+{
+  "name": "com.dcd.quest",
+  "version": "0.0.1",
+  "displayName": "Quest Tool",
+  "description": "Tool to create and manage quest",
+  "unity": "2018.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "quest",
+    "tool",
+    "logs"
+  ],
+  "author": {
+    "name": "David Cuenca"
+  },
+  "type": "tool"
+}
