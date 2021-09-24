@@ -1,10 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName ="Quest", menuName ="Quest/Data")]
 public class QuestData : ScriptableObject
 {
+
+    public bool Completed { get => _completed; set => _completed = value; }
+
+    public string Description { get => _description; }
+
+    public string Title { get => _title; }
+
     [SerializeField]
     private string _title;
 
@@ -12,5 +17,6 @@ public class QuestData : ScriptableObject
     private string _description;
 
     [SerializeField]
-    private bool _complete;
+    private bool _completed;
+
 }
